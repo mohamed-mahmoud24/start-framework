@@ -1,0 +1,149 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.cursor{
+  cursor: pointer;
+}
+.navbar{
+  background-color: #2C3E50;
+}
+.footer{
+  background-color: #1A252F;
+}
+.aboutUs{
+  background-color: #2C3E50;
+  /* position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 8%; */
+  padding:4% 0;
+
+}
+.icons ul li i{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.about{
+  background-color: #1ABC9C;
+  padding: 15% 0;
+  position: relative;
+}
+.home{
+  background-color: #1ABC9C;
+  padding: 8% 0;
+  position: relative;
+}
+.about .after{
+  width: 8%;
+  height: 5px;
+  background-color: #fff;
+  position: absolute;
+  left: 40%;
+  bottom: 52%;
+}
+.about .before{
+  width: 8%;
+  height: 5px;
+  background-color: #fff;
+  position: absolute;
+  right: 40%;
+  bottom: 52%;
+}
+.home .after{
+  width: 8%;
+  height: 5px;
+  background-color: #fff;
+  position: absolute;
+  left: 40%;
+  bottom: 26%;
+}
+.home .before{
+  width: 8%;
+  height: 5px;
+  background-color: #fff;
+  position: absolute;
+  right: 40%;
+  bottom: 26%;
+}
+.contact{
+  padding: 10% 0;
+  color: #2C3E50;
+}
+
+.contact .after, .portfolio .after{
+  width: 8%;
+  height: 5px;
+  background-color: #2C3E50;
+  position: absolute;
+  left: 40%;
+  bottom: 67%;
+}
+.contact .before , .portfolio .before{
+  width: 8%;
+  height: 5px;
+  background-color: #2C3E50;
+  position: absolute;
+  right: 40%;
+  bottom: 67%;
+}
+.contact button{
+  background-color: #1ABC9C;
+  margin-right: 36%;
+  border: none;
+  color: #fff;
+  padding: 1%;
+  border-radius: 10px;
+}
+.contact form input{
+  border: none !important;
+  border-bottom: 1px solid #ccc !important;
+}
+.form-control:focus{
+  outline: none !important;
+  box-shadow: none !important;
+}
+.portfolio{
+  padding: 10% 0;
+  color: #2C3E50;
+}
+.found{
+  padding: 10% 0;
+  color: #2C3E50;
+}
+.activeLink{
+  background-color: #1ABC9C;
+  border-radius: 5px;
+}
+.layer{
+  background-color: #1abc9cb9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: all 1s;
+}
+.layer i {
+  font-size: 60px;
+}
+.portfolio-content:hover  .layer{
+  opacity: 1;
+}
